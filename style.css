@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 3.4rem;
-        font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 
     
 }
@@ -41,7 +41,7 @@ header {
     padding: 10rem 0;
 }
 .site-header h1 {
-    font-size: 13rem;
+    font-size: 6rem;
     font-weight: 700;
     color: white;
 }
@@ -50,7 +50,7 @@ header {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: 'Slabo 27px', serif;
 }
 
@@ -73,7 +73,7 @@ header {
 .site-nav {
     background: #980013;
     color: #FFFFFF;
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 700;
 }
@@ -86,7 +86,7 @@ header {
 
 .site-nav ul li {
     display: inline-block;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .site-nav ul li a {
@@ -104,6 +104,10 @@ header {
 ####################
 */
 /*////////////////////////////PROJECTS-SECTION///////////////////////*/
+
+.projects-section {
+    font-size: 2.4rem;
+}
 
 .place-holder {
     width: 100%;
@@ -130,47 +134,60 @@ header {
 .main-footer {
     background: #980013;
     color: #FFFFFF;
-    padding: 5rem 0 7rem 0;
+    padding: 2rem 0 4rem 0;
 }
 .main-footer h1 {
-    font-size: 6rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    letter-spacing: 3px;
-    margin-bottom: 5rem;
+    letter-spacing: 1px;
+    margin-bottom: 2.5rem;
 }
 
-.mail-form {
-    letter-spacing: 1px;
-}
+
 
 input {
     color: #000000;
     letter-spacing: 1px;
-    padding: 3px 5px;
+    padding: 0 5px;
     background: #FFFFFF;
     filter: brightness(90%);
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
 
 }
 
 input:focus {
     color: #000000;
     letter-spacing: 1px;
-    padding: 3px 5px;
+    padding: 0 5px;
     background: #FFFFFF;
     filter: brightness(100%);
-    -webkit-box-shadow: inset 3px 3px 6px 3px rgba(0,0,0,1);
--moz-box-shadow: inset 3px 3px 6px 3px rgba(0,0,0,1);
-box-shadow: inset 3px 3px 6px 3px rgba(0,0,0,1);
+    -webkit-box-shadow: inset 5px 5px 7px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 5px 5px 7px 0px rgba(0,0,0,0.5);
+    box-shadow: inset 5px 5px 7px 0px rgba(0,0,0,0.5);
     
 }
-input[type="submit"]
-{
-    color: #000000;
-}
-
+input[type="submit"],
 input[type="reset"]
 {
-    color: #000000;
+    
 }
+
+.mail-form {
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+
+.mail-content {
+    height: 15rem;
+    width: 100%;
+}
+
+.user-data {
+    width: 50%;
+}
+
+
 /*///////////////////////////////FOOTER-END//////////////////////////*/
