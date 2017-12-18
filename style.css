@@ -6,8 +6,9 @@ body {
     margin: 0;
     padding: 0;
     font-size: 3.4rem;
-    /*    font-family: 'Anton', sans-serif;*/
-    font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Open Sans Condensed', sans-serif;
+
+    
 }
 
 * {
@@ -30,6 +31,7 @@ a {
 
 header {
     background: #b30027;
+    margin-bottom: 5rem;
 }
 
 
@@ -48,7 +50,8 @@ header {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-size: 5.5rem;
+    font-size: 4rem;
+    font-family: 'Slabo 27px', serif;
 }
 
 
@@ -92,8 +95,6 @@ header {
 
 
 /*/////////////////////////////////NAV-END///////////////////////////*/
-
-
 /*
 ####################
 ####################
@@ -102,8 +103,6 @@ header {
 ####################
 ####################
 */
-
-
 /*////////////////////////////PROJECTS-SECTION///////////////////////*/
 
 .place-holder {
@@ -118,3 +117,60 @@ header {
 
 
 /*///////////////////////////PROJECTS-SECTION-END////////////////////*/
+/*
+####################
+####################
+####################
+####################
+####################
+####################
+*/
+/*///////////////////////////////FOOTER//////////////////////////////*/
+
+.main-footer {
+    background: #980013;
+    color: #FFFFFF;
+    padding: 5rem 0 7rem 0;
+}
+.main-footer h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 5rem;
+}
+
+.mail-form {
+    letter-spacing: 1px;
+}
+
+input {
+    color: #000000;
+    letter-spacing: 1px;
+    padding: 3px 5px;
+    background: #FFFFFF;
+    filter: brightness(90%);
+    margin-bottom: 10px;
+
+}
+
+input:focus {
+    color: #000000;
+    letter-spacing: 1px;
+    padding: 3px 5px;
+    background: #FFFFFF;
+    filter: brightness(100%);
+    -webkit-box-shadow: inset 3px 3px 6px 3px rgba(0,0,0,1);
+-moz-box-shadow: inset 3px 3px 6px 3px rgba(0,0,0,1);
+box-shadow: inset 3px 3px 6px 3px rgba(0,0,0,1);
+    
+}
+input[type="submit"]
+{
+    color: #000000;
+}
+
+input[type="reset"]
+{
+    color: #000000;
+}
+/*///////////////////////////////FOOTER-END//////////////////////////*/
