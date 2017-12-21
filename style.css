@@ -85,19 +85,22 @@ a {
     font-weight: 400;
     text-decoration: none;
     filter: brightness(90%);
+    color: #FFFFFF;
 }
 
 .site-nav ul li a:visited {
-    
+    color: #FFFFFF;
+
 }
 .site-nav ul li a:hover {
     cursor: pointer;
     color: #FFFFFF;
-        filter: brightness(100%);
+    filter: brightness(100%);
 
 }
 .site-nav ul li a:active {
-    
+    color: #FFFFFF;
+
 }
 
 
@@ -165,6 +168,7 @@ header {
     font-size: 2.4rem;
 }
 
+
 .project-img {
     width: 100%;
     overflow: hidden;
@@ -177,6 +181,7 @@ header {
 
 .item {
     padding: 2rem;
+    text-align: justify;
 }
 
 
@@ -194,93 +199,74 @@ header {
 .main-footer {
     background: #980013;
     color: #FFFFFF;
-    padding: 2rem 0 4rem 0;
+    margin-top: 5rem;
+    padding: 6rem 0 6rem 0;
     text-align: center;
 }
 
 .main-footer h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    letter-spacing: 1px;
     margin-bottom: 2.5rem;
+    margin-top: 0;
 }
 
+.main-footer a {
+    display: inline-block;
+}
 .mail-form {
     letter-spacing: 1px;
     font-size: 2.5rem;
 }
 .media-icon {
-    font-size: 6rem;
-    color: #222222;
-    margin-right: 15px;
-}
-input {
+    font-size: 8rem;
     color: #000000;
-    letter-spacing: 1px;
-    padding: 0 5px;
-    background: #FFFFFF;
-    filter: brightness(85%);
-    margin-top: 10px;
-    border: none;
-    outline: none;
+    padding: 0 .8rem;
 }
 
-input:focus {
-    color: #000000;
-    letter-spacing: 1px;
-    padding: 0 5px;
-    background: #FFFFFF;
-    filter: brightness(100%);
-    -webkit-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
--moz-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
+.fa-linkedin-square:hover {
+    cursor: pointer;
+    color: #0077B5;
 }
 
-.container-buttons {
-    width: 100%;
-    text-align: center;
+.fa-facebook-square:hover{
+        color: #3B5998;
+        cursor: pointer;
+
+
 }
 
-input[type="submit"],
-input[type="reset"] {
-    width: 30%;
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 700;
-    padding: 0.5rem 2rem;
-    letter-spacing: 0;
-    margin-right: 0.5rem;
-}
-
-input[type="submit"]:hover,
-input[type="reset"]:hover {
-    
-    filter: brightness(100%);
-    -webkit-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
--moz-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
-}
-
-input[type="submit"]:active,
-input[type="reset"]:active {
-    
-    filter: brightness(100%);
-   -webkit-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
--moz-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.8);
-}
-
-
-
-.mail-content {
-    height: 15rem;
-    width: 100%;
-    margin-bottom: 1.5rem;
-}
-
-.user-data {
-    width: 50%;
-}
 
 
 /*///////////////////////////////FOOTER-END//////////////////////////*/
+
+@media(min-width: 750px){
+    .site-nav ul li {
+        padding: 2rem 2rem;
+    }
+    .site-header h1{
+        font-size: 8rem;
+    }
+    .main-footer {
+        margin-top: 6.5rem;
+    }
+    .main-footer h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media(min-width: 1150px){
+    .site-nav ul li {
+        padding: 2rem 3rem;
+    }
+    .site-header h1{
+        font-size: 10rem;
+    }
+    .main-footer {
+        margin-top: 7.5rem;
+    }
+    .main-footer h1 {
+        font-size: 4.5rem;
+
+    }
+}
