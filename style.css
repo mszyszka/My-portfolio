@@ -195,6 +195,7 @@ header {
     background: #980013;
     color: #FFFFFF;
     padding: 2rem 0 4rem 0;
+    text-align: center;
 }
 
 .main-footer h1 {
@@ -208,7 +209,11 @@ header {
     letter-spacing: 1px;
     font-size: 2.5rem;
 }
-
+.media-icon {
+    font-size: 6rem;
+    color: #222222;
+    margin-right: 15px;
+}
 input {
     color: #000000;
     letter-spacing: 1px;
