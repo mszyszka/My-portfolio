@@ -172,7 +172,15 @@ header {
 .project-img {
     width: 100%;
     overflow: hidden;
+    margin-bottom: 1.5rem;
+
 }
+
+.upright{
+    margin-bottom: 4rem;
+}
+
+
 
 .project-img img {
     max-width: 100%;
@@ -182,6 +190,11 @@ header {
 .item {
     padding: 2rem;
     text-align: justify;
+}
+
+figcaption {
+    max-width: 50rem;
+    margin: auto;
 }
 
 
@@ -200,6 +213,7 @@ header {
     background: #980013;
     color: #FFFFFF;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     padding: 6rem 0 6rem 0;
     text-align: center;
 }
@@ -209,6 +223,12 @@ header {
     font-weight: 700;
     margin-bottom: 2.5rem;
     margin-top: 0;
+}
+
+.main-footer p {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
 }
 
 .main-footer a {
@@ -249,12 +269,20 @@ header {
     }
     .main-footer {
         margin-top: 6.5rem;
+            margin-bottom: 6.5rem;
+
     }
     .main-footer h1 {
         font-size: 4.5rem;
     }
 }
-
+@media(min-width: 992px){
+    
+.horizontal{
+    margin-bottom: 4rem;
+}
+    
+}
 @media(min-width: 1150px){
     .site-nav ul li {
         padding: 2rem 3rem;
@@ -264,6 +292,8 @@ header {
     }
     .main-footer {
         margin-top: 7.5rem;
+            margin-bottom: 7.5rem;
+
     }
     .main-footer h1 {
         font-size: 4.5rem;
