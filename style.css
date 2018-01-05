@@ -69,7 +69,15 @@ a:hover{
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
 }
+
+
+/*I just realized that when I want element on the top of body(first html element) to be sticky I dont need js to toogle class to it...I can just make it sticky.*/
 
 .site-nav ul {
     text-align: center;
